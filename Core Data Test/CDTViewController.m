@@ -260,7 +260,7 @@
             }
         }
         NSTimeInterval duration = CFAbsoluteTimeGetCurrent() - startTime;
-        NSLog(@"TEMPLATE found:%d time:%f", totalFound, duration);
+        NSLog(@"TEMPINDX found:%d time:%f", totalFound, duration);
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
             self.templateIndexedTimer.text = [NSString stringWithFormat:@"%f", duration];
         }];
