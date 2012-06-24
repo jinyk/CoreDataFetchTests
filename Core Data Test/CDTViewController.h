@@ -3,11 +3,20 @@
 //  Core Data Test
 //
 //  Created by Jinyoung Kim on 6/23/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Jinyoung Kim. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@interface CDTViewController : UITableViewController <UITextFieldDelegate>
 
-@interface CDTViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *numberOfFetchesField;
+@property (weak, nonatomic) IBOutlet UISwitch *randomizeSwitch;
+@property (weak, nonatomic) IBOutlet UILabel *regularTimer;
+@property (weak, nonatomic) IBOutlet UILabel *templateTimer;
+@property (weak, nonatomic) IBOutlet UILabel *cacheTimer;
+@property (weak, nonatomic) IBOutlet UILabel *indexedTimer;
+@property (weak, nonatomic) IBOutlet UILabel *templateIndexedTimer;
+
+- (IBAction)reloadData:(id)sender;
+- (IBAction)runFetches:(id)sender;
 
 @end

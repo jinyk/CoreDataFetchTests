@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		902059F71596BC5F00C61099 /* SeedLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 902059F61596BC5F00C61099 /* SeedLoader.m */; };
 		90FEF72615966B2A00C23DED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FEF72515966B2A00C23DED /* UIKit.framework */; };
 		90FEF72815966B2A00C23DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FEF72715966B2A00C23DED /* Foundation.framework */; };
 		90FEF72A15966B2A00C23DED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FEF72915966B2A00C23DED /* CoreGraphics.framework */; };
@@ -20,6 +21,11 @@
 		90FEF74615966B2A00C23DED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FEF72715966B2A00C23DED /* Foundation.framework */; };
 		90FEF74E15966B2A00C23DED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90FEF74C15966B2A00C23DED /* InfoPlist.strings */; };
 		90FEF75115966B2A00C23DED /* Core_Data_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FEF75015966B2A00C23DED /* Core_Data_TestTests.m */; };
+		90FEF7671596704B00C23DED /* data_2011.json in Resources */ = {isa = PBXBuildFile; fileRef = 90FEF7661596704B00C23DED /* data_2011.json */; };
+		90FEF76A1596790E00C23DED /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90FEF7681596790D00C23DED /* Model.xcdatamodeld */; };
+		90FEF76D15967B2200C23DED /* CDTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FEF76C15967B2200C23DED /* CDTManager.m */; };
+		90FEF77F15967F5F00C23DED /* SchoolStat.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FEF77E15967F5F00C23DED /* SchoolStat.m */; };
+		90FEF785159682FC00C23DED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FEF784159682FC00C23DED /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +39,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		902059F51596BC5F00C61099 /* SeedLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeedLoader.h; sourceTree = "<group>"; };
+		902059F61596BC5F00C61099 /* SeedLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeedLoader.m; sourceTree = "<group>"; };
 		90FEF72115966B2A00C23DED /* Core Data Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Data Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FEF72515966B2A00C23DED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90FEF72715966B2A00C23DED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90FEF72915966B2A00C23DED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90FEF72D15966B2A00C23DED /* Core Data Test-Info.plist */ = {isa = PBXFileReference; path = "Core Data Test-Info.plist"; sourceTree = "<group>"; };
+		90FEF72D15966B2A00C23DED /* Core Data Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Core Data Test-Info.plist"; sourceTree = "<group>"; };
 		90FEF72F15966B2A00C23DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90FEF73115966B2A00C23DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90FEF73315966B2A00C23DED /* Core Data Test-Prefix.pch */ = {isa = PBXFileReference; path = "Core Data Test-Prefix.pch"; sourceTree = "<group>"; };
-		90FEF73415966B2A00C23DED /* CDTAppDelegate.h */ = {isa = PBXFileReference; path = CDTAppDelegate.h; sourceTree = "<group>"; };
+		90FEF73315966B2A00C23DED /* Core Data Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Core Data Test-Prefix.pch"; sourceTree = "<group>"; };
+		90FEF73415966B2A00C23DED /* CDTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTAppDelegate.h; sourceTree = "<group>"; };
 		90FEF73515966B2A00C23DED /* CDTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTAppDelegate.m; sourceTree = "<group>"; };
 		90FEF73815966B2A00C23DED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		90FEF73A15966B2A00C23DED /* CDTViewController.h */ = {isa = PBXFileReference; path = CDTViewController.h; sourceTree = "<group>"; };
+		90FEF73A15966B2A00C23DED /* CDTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDTViewController.h; sourceTree = "<group>"; };
 		90FEF73B15966B2A00C23DED /* CDTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDTViewController.m; sourceTree = "<group>"; };
 		90FEF74215966B2A00C23DED /* Core Data TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Data TestTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FEF74315966B2A00C23DED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		90FEF74B15966B2A00C23DED /* Core Data TestTests-Info.plist */ = {isa = PBXFileReference; path = "Core Data TestTests-Info.plist"; sourceTree = "<group>"; };
+		90FEF74B15966B2A00C23DED /* Core Data TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Core Data TestTests-Info.plist"; sourceTree = "<group>"; };
 		90FEF74D15966B2A00C23DED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		90FEF74F15966B2A00C23DED /* Core_Data_TestTests.h */ = {isa = PBXFileReference; path = Core_Data_TestTests.h; sourceTree = "<group>"; };
+		90FEF74F15966B2A00C23DED /* Core_Data_TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core_Data_TestTests.h; sourceTree = "<group>"; };
 		90FEF75015966B2A00C23DED /* Core_Data_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Core_Data_TestTests.m; sourceTree = "<group>"; };
+		90FEF7661596704B00C23DED /* data_2011.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data_2011.json; sourceTree = "<group>"; };
+		90FEF7691596790D00C23DED /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		90FEF76B15967B2200C23DED /* CDTManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTManager.h; sourceTree = "<group>"; };
+		90FEF76C15967B2200C23DED /* CDTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTManager.m; sourceTree = "<group>"; };
+		90FEF77D15967F5F00C23DED /* SchoolStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolStat.h; sourceTree = "<group>"; };
+		90FEF77E15967F5F00C23DED /* SchoolStat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolStat.m; sourceTree = "<group>"; };
+		90FEF784159682FC00C23DED /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90FEF785159682FC00C23DED /* CoreData.framework in Frameworks */,
 				90FEF72615966B2A00C23DED /* UIKit.framework in Frameworks */,
 				90FEF72815966B2A00C23DED /* Foundation.framework in Frameworks */,
 				90FEF72A15966B2A00C23DED /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +116,7 @@
 		90FEF72415966B2A00C23DED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90FEF784159682FC00C23DED /* CoreData.framework */,
 				90FEF72515966B2A00C23DED /* UIKit.framework */,
 				90FEF72715966B2A00C23DED /* Foundation.framework */,
 				90FEF72915966B2A00C23DED /* CoreGraphics.framework */,
@@ -111,9 +128,16 @@
 		90FEF72B15966B2A00C23DED /* Core Data Test */ = {
 			isa = PBXGroup;
 			children = (
+				90FEF73715966B2A00C23DED /* MainStoryboard.storyboard */,
+				90FEF7681596790D00C23DED /* Model.xcdatamodeld */,
+				90FEF77D15967F5F00C23DED /* SchoolStat.h */,
+				90FEF77E15967F5F00C23DED /* SchoolStat.m */,
+				902059F51596BC5F00C61099 /* SeedLoader.h */,
+				902059F61596BC5F00C61099 /* SeedLoader.m */,
 				90FEF73415966B2A00C23DED /* CDTAppDelegate.h */,
 				90FEF73515966B2A00C23DED /* CDTAppDelegate.m */,
-				90FEF73715966B2A00C23DED /* MainStoryboard.storyboard */,
+				90FEF76B15967B2200C23DED /* CDTManager.h */,
+				90FEF76C15967B2200C23DED /* CDTManager.m */,
 				90FEF73A15966B2A00C23DED /* CDTViewController.h */,
 				90FEF73B15966B2A00C23DED /* CDTViewController.m */,
 				90FEF72C15966B2A00C23DED /* Supporting Files */,
@@ -124,6 +148,7 @@
 		90FEF72C15966B2A00C23DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90FEF7661596704B00C23DED /* data_2011.json */,
 				90FEF72D15966B2A00C23DED /* Core Data Test-Info.plist */,
 				90FEF72E15966B2A00C23DED /* InfoPlist.strings */,
 				90FEF73115966B2A00C23DED /* main.m */,
@@ -198,6 +223,7 @@
 			attributes = {
 				CLASSPREFIX = CDT;
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jinyoung Kim";
 			};
 			buildConfigurationList = 90FEF71B15966B2900C23DED /* Build configuration list for PBXProject "Core Data Test" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -224,6 +250,7 @@
 			files = (
 				90FEF73015966B2A00C23DED /* InfoPlist.strings in Resources */,
 				90FEF73915966B2A00C23DED /* MainStoryboard.storyboard in Resources */,
+				90FEF7671596704B00C23DED /* data_2011.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +288,10 @@
 				90FEF73215966B2A00C23DED /* main.m in Sources */,
 				90FEF73615966B2A00C23DED /* CDTAppDelegate.m in Sources */,
 				90FEF73C15966B2A00C23DED /* CDTViewController.m in Sources */,
+				90FEF76A1596790E00C23DED /* Model.xcdatamodeld in Sources */,
+				90FEF76D15967B2200C23DED /* CDTManager.m in Sources */,
+				90FEF77F15967F5F00C23DED /* SchoolStat.m in Sources */,
+				902059F71596BC5F00C61099 /* SeedLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +461,7 @@
 				90FEF75615966B2A00C23DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90FEF75715966B2A00C23DED /* Build configuration list for PBXNativeTarget "Core Data TestTests" */ = {
 			isa = XCConfigurationList;
@@ -438,8 +470,22 @@
 				90FEF75915966B2A00C23DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90FEF7681596790D00C23DED /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90FEF7691596790D00C23DED /* Model.xcdatamodel */,
+			);
+			currentVersion = 90FEF7691596790D00C23DED /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 90FEF71815966B2900C23DED /* Project object */;
 }
