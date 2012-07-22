@@ -40,6 +40,7 @@
             schoolStat.district = [curSchool objectForKey:@"DISTRICT"];
             schoolStat.schoolNumber = [numberFormatter numberFromString:[curSchool objectForKey:@"SCHOOL_NUMBER"]];
             schoolStat.schoolName = [curSchool objectForKey:@"SCHOOL_NAME"];
+            schoolStat.schoolNameIndexed = [curSchool objectForKey:@"SCHOOL_NAME"];
             schoolStat.numberStudentsTested = [numberFormatter numberFromString:[curSchool objectForKey:@"NUMBER_STUDENTS_TESTED"]];
             schoolStat.verbalAverageScore = [numberFormatter numberFromString:[curSchool objectForKey:@"VERBAL_AVERAGE_SCORE"]];
             schoolStat.mathAverageScore = [numberFormatter numberFromString:[curSchool objectForKey:@"MATH_AVERAGE_SCORE"]];

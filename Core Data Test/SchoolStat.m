@@ -14,6 +14,7 @@
 @dynamic district;
 @dynamic schoolNumber;
 @dynamic schoolName;
+@dynamic schoolNameIndexed;
 @dynamic numberStudentsTested;
 @dynamic verbalAverageScore;
 @dynamic mathAverageScore;

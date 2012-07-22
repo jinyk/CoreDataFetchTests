@@ -8,15 +8,16 @@
 
 @interface SchoolStat : NSManagedObject
 
-@property (nonatomic, retain) NSNumber * aun;
-@property (nonatomic, retain) NSString * district;
-@property (nonatomic, retain) NSNumber * schoolNumber;
-@property (nonatomic, retain) NSString * schoolName;
-@property (nonatomic, retain) NSNumber * numberStudentsTested;
-@property (nonatomic, retain) NSNumber * verbalAverageScore;
-@property (nonatomic, retain) NSNumber * mathAverageScore;
-@property (nonatomic, retain) NSNumber * mathAverageScoreIndexed;
-@property (nonatomic, retain) NSNumber * writingAverageScore;
-@property (nonatomic, retain) NSNumber * year;
+@property (strong, nonatomic) NSNumber * aun;
+@property (strong, nonatomic) NSString * district;
+@property (strong, nonatomic) NSNumber * schoolNumber;
+@property (strong, nonatomic) NSString * schoolName;
+@property (strong, nonatomic) NSString * schoolNameIndexed;
+@property (strong, nonatomic) NSNumber * numberStudentsTested;
+@property (strong, nonatomic) NSNumber * verbalAverageScore;
+@property (strong, nonatomic) NSNumber * mathAverageScore;
+@property (strong, nonatomic) NSNumber * mathAverageScoreIndexed;
+@property (strong, nonatomic) NSNumber * writingAverageScore;
+@property (strong, nonatomic) NSNumber * year;
 
 @end

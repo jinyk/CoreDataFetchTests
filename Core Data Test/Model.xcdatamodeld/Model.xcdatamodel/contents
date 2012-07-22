@@ -7,6 +7,7 @@
         <attribute name="mathAverageScoreIndexed" optional="YES" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
         <attribute name="numberStudentsTested" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="schoolName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schoolNameIndexed" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
         <attribute name="schoolNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="verbalAverageScore" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="writingAverageScore" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
@@ -15,6 +16,6 @@
     <fetchRequest name="FindOnMath" entity="SchoolStat" predicateString="mathAverageScore == $MATH_SCORE"/>
     <fetchRequest name="FindOnMathIndexed" entity="SchoolStat" predicateString="mathAverageScoreIndexed == $MATH_SCORE"/>
     <elements>
-        <element name="SchoolStat" positionX="160" positionY="192" width="128" height="180"/>
+        <element name="SchoolStat" positionX="160" positionY="192" width="128" height="210"/>
     </elements>
 </model>
